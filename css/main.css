@@ -27,11 +27,20 @@ body {
   }
 
 /* for grid  */
-  .emojis{
-    display: grid;
-    grid-gap : 5px;
-    grid-template-columns:  repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
-    grid-template-areas: 
+.emojis {
+  display: grid;
+  grid-gap: 20px;
+  grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-row: 1fr 1fr;
+  
+}
 
-  }
+/* anjust each card */
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
